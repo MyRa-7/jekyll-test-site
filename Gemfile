@@ -31,3 +31,6 @@ gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
 # Added at 2018-05-20 12:19:56 -0600 by mythreyi:
 gem "jekyll-paginate", "~> 1.1"
+
+# Added at 2020-08-10 21:43:58 +0530 by mythreyi:
+gem "kramdown", ">= 2.3.0"

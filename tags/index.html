@@ -19,7 +19,7 @@ title: Post Archives
             </ul>
         </header>
   {% for tag in sortedTags %}
-  <h3 id="{{tag | cgi_escape}}">{{tag}}</h3>
+  <h3 id="{{tag | cgi_escape | capitalize }}">{{tag}}</h3>
   <ul class="taglist">
     {% for post in site.tags[tag] %}
     <li>
